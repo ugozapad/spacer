@@ -1,6 +1,6 @@
 require daslib/media
-// options debugger            // uncomment for debug in VS Code
-// require daslib/debug        // uncomment for debug in VS Code
+options debugger            // uncomment for debug in VS Code
+require daslib/debug        // uncomment for debug in VS Code
 
 require game_logic
 
