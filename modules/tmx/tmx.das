@@ -9,3 +9,4 @@ struct Object
     name: string
     visible: bool
     id: int
+    obj_type: string
