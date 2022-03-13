@@ -1,6 +1,6 @@
 {
    // path to dasbox.exe
-   "dascript.compiler": "C:/Users/ugo/Downloads/dasbox_portable/dasbox.exe",
+   "dascript.compiler": "C:/Sources/dasbox/bin/dasbox.exe",
 
    "dascript.server.args": [
         "${file}",
@@ -20,6 +20,7 @@
     "dascript.policies.no_global_variables": false,
     "dascript.policies.fail_on_lack_of_aot_export": false,
     "dascript.project.scanWorkspace": true,
+    "dascript.debug.port" : 10000,
  
     // additional settings
     "editor.semanticHighlighting.enabled": true,

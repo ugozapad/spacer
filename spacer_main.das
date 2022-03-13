@@ -1,6 +1,8 @@
+
+options debugger            // uncomment for debug in VS Code
+require daslib/debug        // uncomment for debug in VS Code
+
 require daslib/media
-// options debugger            // uncomment for debug in VS Code
-// require daslib/debug        // uncomment for debug in VS Code
 
 require game_logic
 
@@ -29,5 +31,5 @@ def act(dt: float)
 // you can draw anything in this function
 [export]
 def draw
-	draw_image(logo_image, 100, 30)
+	draw_image(logo_image, get_screen_width() / 4, get_screen_height() / 4 - 200);
     return
