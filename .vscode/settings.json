@@ -20,7 +20,7 @@
     "dascript.policies.no_global_variables": false,
     "dascript.policies.fail_on_lack_of_aot_export": false,
     "dascript.project.scanWorkspace": true,
-    "dascript.debug.port" : 10000,
+    "dascript.debug.port" : 11000,
  
     // additional settings
     "editor.semanticHighlighting.enabled": true,
