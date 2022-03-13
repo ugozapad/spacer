@@ -63,6 +63,12 @@
                  "y":1280
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"fixtime",
+                 "type":"int",
+                 "value":5
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
